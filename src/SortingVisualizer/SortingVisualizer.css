@@ -1,0 +1,32 @@
+* {
+    background-color: white;
+}
+
+.button-container {
+    display: flex;
+    background-color: antiquewhite;
+    justify-content: center;
+    padding-top: 4vh;
+    padding-bottom: 5vh;
+    ;
+}
+
+
+button {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    line-height: 1;
+
+}
+
+.array-container {
+    display: flex;
+    justify-content: center;
+    color: white;
+  }
+  
+  .array-bar {
+    width: 5px;
+    display: inline-block;
+    margin: 0 3px;
+  }
