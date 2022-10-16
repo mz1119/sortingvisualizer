@@ -1,8 +1,10 @@
-This personal project was inspired by Clement Mihailescu's [Sorting Visualizer project](https://github.com/clementmihailescu/Sorting-Visualizer).
-
-However, despite the inspiration, the implementation of visualizing each algorithm is original and is code purely written by Max Zhang.
+# Sorting Visualizer
 
 This sorting visualizer project was created using React and aims to visually represent how arrays of numbers can be sorted in order. 
+
+This personal project was inspired by Clement Mihailescu's [Sorting Visualizer project](https://github.com/clementmihailescu/Sorting-Visualizer).However, despite the inspiration, the implementation of visualizing each algorithm is original and is code purely written by Max Zhang.
+
+Currently, only QuickSort and BubbleSort are implemeted visually, but I am currently working on InsertionSort and MergSort which will be arriving shortly.
 
 
 
