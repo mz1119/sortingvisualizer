@@ -1,6 +1,10 @@
-# Getting Started with Create React App
+This personal project was inspired by Clement Mihailescu's [Sorting Visualizer project](https://github.com/clementmihailescu/Sorting-Visualizer).
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+However, despite the inspiration, the implementation of visualizing each algorithm is original and is code purely written by Max Zhang.
+
+This sorting visualizer project was created using React and aims to visually represent how arrays of numbers can be sorted in order. 
+
+
 
 ## Available Scripts
 

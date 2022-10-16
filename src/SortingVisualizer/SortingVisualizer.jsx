@@ -1,7 +1,7 @@
 import React from "react";
 import './SortingVisualizer.css';
 
-const ANIMATION_RATE_MS = 50;
+const ANIMATION_RATE_MS = 10;
 
 export default class SortingVisualizer extends React.Component {
     constructor(props){
