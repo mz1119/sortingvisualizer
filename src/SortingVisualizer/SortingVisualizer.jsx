@@ -1,13 +1,14 @@
 import React from "react";
 import './SortingVisualizer.css';
 
-const ANIMATION_RATE_MS = 10;
+const ANIMATION_RATE_MS = 20;
 
 export default class SortingVisualizer extends React.Component {
     constructor(props){
         super(props);
         this.state = { 
             array: [],
+            running: false,
         }
     }
 
@@ -55,7 +56,6 @@ export default class SortingVisualizer extends React.Component {
         const array = this.state.array;
 
         quickSort(array, 0, array.length - 1, 0, 0);
-        console.log(array);
 
         function quickSort(arr, start, end, counter) {
             if (start >= end) {
@@ -122,7 +122,7 @@ export default class SortingVisualizer extends React.Component {
 
 
     render(){
-        const {array} = this.state;
+        const {array} = this.state.array;
 
         return (
             <>
